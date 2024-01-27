@@ -107,7 +107,13 @@ html {
 }
 
 #navbar #logo a {
-    font-size: 20px;
+    font-size: 22px;
+    font-style: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+
+#navbar a {
+    color: var(--bg-dark);
 }
 
 #navbar #nav-links {
