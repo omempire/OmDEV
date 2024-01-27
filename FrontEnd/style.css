@@ -42,6 +42,10 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
 
+a {
+    text-decoration: none;
+}
+
 #root, #__next {
     isolation: isolate;
 }
@@ -50,4 +54,64 @@ html {
     scroll-behavior: smooth;
 }
 
-/* -------------------- */
+/* ------------------------------------ */
+
+
+/* ------------------------------------ */
+
+/* UTILITY CLASSES */
+
+.container {
+  padding: 4rem 2rem;
+  color: var(--text);
+}
+
+.highlighted {
+  color: var(--accent);
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  background-color: var(--accent);
+  color: var(--text);
+  padding: 0.5rem 3rem;
+  border-radius: 5rem;
+  display: inline-block;
+  margin-top: 2rem;
+  border: 2px solid var(--accent);
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--accent);
+}
+
+/* ------------------------------------ */
+
+
+/* ------------------------------------ */
+
+/* NAVBAR */
+
+#navbar {
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(248, 228, 228);
+}
+
+#navbar #logo a {
+    font-size: 20px;
+}
+
+#navbar #nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
