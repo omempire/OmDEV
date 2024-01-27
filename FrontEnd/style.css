@@ -94,8 +94,10 @@ html {
 
 /* ------------------------------------ */
 
-/* NAVBAR */
+/* #### BODY #### */
 
+
+/* NAVBAR */
 #navbar {
     padding: 10px 30px;
     width: 100%;
@@ -121,3 +123,55 @@ html {
     justify-content: space-between;
     gap: 50px;
 }
+
+
+/* HERO */
+#bodySection p {
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+}
+
+#bodySection #heroSection {
+    height: 1000px;
+    background-color: violet;
+    border-bottom: 5px solid white;
+}
+
+#bodySection #hr1 {
+    height: 500px;
+    background-color: wheat;
+    border-bottom: 5px solid white;
+}
+
+#bodySection #hr2 {
+    height: 500px;
+    background-color: rgb(170, 124, 39);
+    border-bottom: 5px solid white;
+}
+
+#bodySection #hr3 {
+    height: 500px;
+    background-color: rgb(29, 160, 184);
+    border-bottom: 5px solid white;
+}
+
+/* ------------------------------------ */
+
+
+/* ------------------------------------ */
+
+/* #### FOOTER #### */
+
+#footerSection {
+    height: 1000px;
+    background-color: rgb(216, 21, 21);
+}
+
+#footerSection p {
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+}
+
+
