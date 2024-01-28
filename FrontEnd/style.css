@@ -259,7 +259,22 @@ html {
 }
 
 #contactForm .formEle {
-    margin: 20px;
+    margin: 20px 30px;
+}
+
+#contactForm input, textarea {
+    min-width: 100%;
+    padding: 13px;
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 10px;
+}
+
+#contactForm input[type="submit"] {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 /* ------------------------------------ */
