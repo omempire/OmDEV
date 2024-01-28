@@ -2,17 +2,19 @@
 
 
 
-/* -------------------- */
-
+/* ------------------------------------ */
+/* #### ROOT #### */
 :root {
     --bg-dark: #0a1016;
 }
 
-/* -------------------- */
+/* ------------------------------------ */
 
 
-/* -------------------- */
 
+
+/* ------------------------------------ */
+/* #### CSS BOILERPLATE #### */
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -57,9 +59,11 @@ html {
 /* ------------------------------------ */
 
 
+
+
 /* ------------------------------------ */
 
-/* UTILITY CLASSES */
+/* #### UTILITY CLASSES #### */
 
 .container {
   padding: 4rem 2rem;
@@ -89,15 +93,24 @@ html {
   color: var(--accent);
 }
 
+.line {
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: var(--bg-dark);
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
 /* ------------------------------------ */
 
 
+
+
 /* ------------------------------------ */
 
-/* #### BODY #### */
+/* #### NAVBAR #### */
 
-
-/* NAVBAR */
 #headSection {
     padding: 10px 30px;
     width: 100%;
@@ -125,6 +138,19 @@ html {
     gap: 50px;
 }
 
+#nav-toggler {
+    display: none;
+}
+
+
+/* ------------------------------------ */
+
+
+
+
+/* ------------------------------------ */
+
+/* #### BODY #### */
 
 /* HERO */
 #bodySection p {
@@ -139,18 +165,21 @@ html {
     border-bottom: 5px solid white;
 }
 
+/* HR1 */
 #bodySection #hr1 {
     height: 500px;
     background-color: wheat;
     border-bottom: 5px solid white;
 }
 
+/* HR2 */
 #bodySection #hr2 {
     height: 500px;
     background-color: rgb(170, 124, 39);
     border-bottom: 5px solid white;
 }
 
+/* HR3 */
 #bodySection #hr3 {
     height: 500px;
     background-color: rgb(29, 160, 184);
@@ -158,6 +187,8 @@ html {
 }
 
 /* ------------------------------------ */
+
+
 
 
 /* ------------------------------------ */
@@ -178,11 +209,22 @@ html {
 /* ------------------------------------ */
 
 
+
+
 /* ------------------------------------ */
 
 /* #### RESPONSIVE #### */
 
+@media (max-width: 770px) {
 
+    #navbar {
+        display: none;
+    }
+    #nav-toggler {
+        display: block;
+    }
+
+}
 
 
 
