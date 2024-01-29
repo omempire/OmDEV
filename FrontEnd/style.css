@@ -153,6 +153,7 @@ html {
 /* #### BODY #### */
 
 /* HERO */
+
 #bodySection p {
     font-size: 30px;
     text-align: center;
@@ -160,9 +161,19 @@ html {
 }
 
 #bodySection #heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     height: 1000px;
-    background-color: violet;
+    background-color: rgb(28, 28, 39);
     border-bottom: 5px solid white;
+    padding: 0 30px;
+}
+
+#bodySection #heroSection #desc {
+    width: 300px;
+    height: 300px;
+    background-color: palegoldenrod;
 }
 
 /* HR1 */
@@ -170,6 +181,7 @@ html {
     height: 500px;
     background-color: wheat;
     border-bottom: 5px solid white;
+    padding: 0 30px;
 }
 
 /* HR2 */
@@ -177,6 +189,7 @@ html {
     height: 500px;
     background-color: rgb(170, 124, 39);
     border-bottom: 5px solid white;
+    padding: 0 30px;
 }
 
 /* HR3 */
@@ -184,6 +197,7 @@ html {
     height: 500px;
     background-color: rgb(29, 160, 184);
     border-bottom: 5px solid white;
+    padding: 0 30px;
 }
 
 /* ------------------------------------ */
@@ -206,7 +220,7 @@ html {
     color: rgb(248, 228, 228);
     height: auto;
     background-color: rgb(28, 28, 39);
-    padding: 50px;
+    padding: 50px 30px;
 }
 
 #footerSection p {
