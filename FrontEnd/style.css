@@ -164,17 +164,41 @@ html {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 1000px;
+    height: 700px;
     background-color: rgb(28, 28, 39);
     border-bottom: 5px solid white;
     padding: 0 30px;
 }
 
 #bodySection #heroSection #desc {
-    width: 300px;
-    height: 300px;
-    background-color: palegoldenrod;
+    width: 600px;
+    height: 400px;
+    font-family: "Poppins", sans-serif;
+    /* background-color: palegoldenrod; */
 }
+
+#desc h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+#desc h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+#desc p {
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-align: justify;
+    padding: 0;
+    
+}
+
+
 
 /* HR1 */
 #bodySection #hr1 {
