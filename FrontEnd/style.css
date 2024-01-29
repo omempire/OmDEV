@@ -206,6 +206,7 @@ html {
     color: rgb(248, 228, 228);
     height: auto;
     background-color: rgb(28, 28, 39);
+    padding: 50px;
 }
 
 #footerSection p {
@@ -241,7 +242,10 @@ html {
     width: auto;
     margin-top: 30px;
     padding: 0;
-    background-color: rgb(230, 84, 17);
+    /* background-color: rgb(230, 84, 17); */
+    /* background-color: rgb(28, 28, 39); */
+    background-color: rgb(6, 6, 19);
+    border: 2px solid rgb(33, 33, 82);
     border-radius: 10px;
 }
 
@@ -261,6 +265,7 @@ html {
 }
 #contactFormDiv input[type="submit"] {
     margin-bottom: 10px;
+    color: rgb(33, 33, 82);
 }
 
 #contactForm .formEle {
@@ -273,6 +278,10 @@ html {
     border: 2px solid grey;
     outline: none;
     border-radius: 10px;
+}
+
+#contactForm input:focus, textarea:focus {
+    border-color: orangered;
 }
 
 #contactForm input[type="submit"] {
@@ -317,7 +326,6 @@ html {
     font-size: 14px;
     font-weight: 400;
     margin-top: 25px;
-    margin-bottom: 50px;
 }
 
 /* ------------------------------------ */
