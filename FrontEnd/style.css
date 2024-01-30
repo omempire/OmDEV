@@ -118,8 +118,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     background-color: rgb(28, 28, 39);
+    top: 0px;
+    /* z-index: 10; */
     /* background-color: rgb(248, 228, 228); */
 }
 
@@ -182,11 +184,12 @@ html {
     background-color: rgb(28, 28, 39);
     border-bottom: 5px solid white;
     padding: 0 100px;
+    padding-bottom: 45px;
 }
 #bodySection #heroSection #desc {
     width: 600px;
     height: 400px;
-    /* margin-bottom: -30px; */
+    /* margin-top: -40px; */
     /* background-color: palegoldenrod; */
 }
 #desc h1 {
