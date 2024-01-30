@@ -118,20 +118,31 @@ html {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    background-color: rgb(248, 228, 228);
+    background-color: rgb(28, 28, 39);
+    /* background-color: rgb(248, 228, 228); */
 }
 
+#headSection #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#headSection #logo svg {
+    color: whitesmoke;
+}
 #headSection #logo a {
     font-size: 22px;
     font-style: "Roboto", sans-serif;
     font-weight: bolder;
-    color: var(--bg-dark);
+    color: whitesmoke;
+    /* color: var(--bg-dark); */
 }
 
 #headSection #navbar a {
     font-size: 18px;
     font-weight: 500;
-    color: var(--bg-dark);
+    color: whitesmoke;
+    /* color: var(--bg-dark); */
 }
 
 #headSection #navbar #nav-links {
