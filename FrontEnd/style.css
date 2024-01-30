@@ -114,6 +114,7 @@ html {
 #headSection {
     padding: 15px 100px;
     width: 100%;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -139,7 +140,7 @@ html {
 }
 
 #headSection #navbar a {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     color: whitesmoke;
     /* color: var(--bg-dark); */
@@ -185,7 +186,7 @@ html {
 #bodySection #heroSection #desc {
     width: 600px;
     height: 400px;
-    margin-top: 30px;
+    /* margin-bottom: -30px; */
     /* background-color: palegoldenrod; */
 }
 #desc h1 {
@@ -216,10 +217,12 @@ html {
 }
 #desc #resumeButton {
     font-family: "Poppins", sans-serif;
+    /* font-weight: 600; */
     font-weight: 600;
-    font-size: 20px;
+    /* font-size: 20px; */
     margin: 45px 0;
-    padding: 16px 60px;
+    /* padding: 16px 60px; */
+    padding: 14px 30px;
     border-radius: 20px;
     border: none;
     /* background: linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%); */
@@ -238,7 +241,7 @@ html {
 
 
 /* HR1 */
-#bodySection #hr1 {
+#bodySection #skills {
     height: 500px;
     background-color: wheat;
     border-bottom: 5px solid white;
@@ -246,7 +249,7 @@ html {
 }
 
 /* HR2 */
-#bodySection #hr2 {
+#bodySection #experience {
     height: 500px;
     background-color: rgb(170, 124, 39);
     border-bottom: 5px solid white;
@@ -254,7 +257,7 @@ html {
 }
 
 /* HR3 */
-#bodySection #hr3 {
+#bodySection #projects {
     height: 500px;
     background-color: rgb(29, 160, 184);
     border-bottom: 5px solid white;
