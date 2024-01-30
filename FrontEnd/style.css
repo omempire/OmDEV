@@ -183,7 +183,7 @@ html {
     padding: 0 100px;
 }
 #bodySection #heroSection #desc {
-    width: 500px;
+    width: 600px;
     height: 400px;
     margin-top: 30px;
     /* background-color: palegoldenrod; */
@@ -204,14 +204,13 @@ html {
     /* margin: 10px 0; */
     line-height: 70px;
 }
-#desc p {
+#desc .para {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     color: whitesmoke;
-    text-align: justify;
     padding: 0;
     color:rgba(242, 243, 244, 0.584);
 }
