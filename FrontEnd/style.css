@@ -305,15 +305,37 @@ html {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    width: 100%;
+    width: 95%;
     /* border: 2px solid red; */
 }
 #skillSection #descSkill .skillShowCase{
-    max-width: 532.5px;
+    max-width: 505.2px;
     width: 100%;
     border: 0.1px solid rgb(133, 76, 230);
     box-shadow: 0px 4px 24px rgba(23, 92, 230, 0.15);
     border-radius: 10px;
+    padding: 20px;
+}
+#descSkill .skillShowCase h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #b1b2b3;
+}
+#descSkill .skillShowCase .skillName {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#descSkill .skillName .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    padding: 5px;
 }
 
 
