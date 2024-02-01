@@ -105,7 +105,7 @@ html {
 .para {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 32px;
     color: whitesmoke;
@@ -113,9 +113,9 @@ html {
     color:rgba(242, 243, 244, 0.584);
 }
 
-.imgSource {
-    width: 3rem;
-    height: 3rem;
+.svgSource {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 /* ------------------------------------ */
@@ -294,7 +294,7 @@ html {
 }
 #skillSection #introSkill h1 {
     font-family: "Poppins", sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
     text-align: center;
     color: whitesmoke;
@@ -316,26 +316,32 @@ html {
     border-radius: 10px;
     padding: 20px;
 }
-#descSkill .skillShowCase h1 {
+#descSkill .skillShowCase .skillName {
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 25px;
     font-weight: 500;
     color: #b1b2b3;
 }
-#descSkill .skillShowCase .skillName {
+#descSkill .skillShowCase .skillSet {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
-#descSkill .skillName .skill {
+#descSkill .skillSet .skill {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid whitesmoke;
-    padding: 5px;
+    gap: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: #f2f3f480;
+    padding: 10px;
 }
 
 
