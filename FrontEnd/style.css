@@ -286,7 +286,7 @@ html {
     height: auto;
     background-color: rgb(25, 25, 36);
     /* border-bottom: 5px solid white; */
-    padding: 40px 130px;
+    padding: 80px 130px 40px 130px;
 }
 
 #bodySection #skills #skillSection {
@@ -367,17 +367,12 @@ html {
     background-color: rgb(25, 25, 36);
     /* background-color: rgb(170, 124, 39); */
     border-bottom: 5px solid white;
-    padding: 40px 130px;
+    padding: 80px 130px 40px 130px;
 }
-#experience #expSection {
-    /* background-color: khaki; */
-    height: 500px;
-}
-#expSection #introExp {
-    /* background-color: lightcoral; */
-}
-#expSection #descExp {
-    /* background-color: steelblue; */
+#experience #expSection #descExp {
+    border: 2px solid khaki;
+    border-radius: 10px;
+    margin: 50px 0;
 }
 
 
