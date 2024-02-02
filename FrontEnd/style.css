@@ -126,6 +126,27 @@ html {
     color: whitesmoke;
 }
 
+.trackingCircle {
+    display: block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    /* background-color: orangered; */
+    border: 3px solid rgb(156, 39, 176);
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.trackingBar {
+    display: block;
+    content: '';
+    width: 3px;
+    height: 100px;
+    background-color: rgb(255, 8, 0);
+    margin: 10px 0;
+}
+
 /* ------------------------------------ */
 
 
@@ -363,19 +384,39 @@ html {
 
 /* EXPERIENCE SECTION */
 #bodySection #experience {
-    height: 500px;
+    height: auto;
     background-color: rgb(25, 25, 36);
     /* background-color: rgb(170, 124, 39); */
     border-bottom: 5px solid white;
     padding: 80px 130px 40px 130px;
 }
-#experience #expSection #descExp {
+#experience #expSection #descExperience {
     border: 2px solid khaki;
     border-radius: 10px;
     margin: 50px 0;
+    padding: 20px;
+    width: 100%;
 }
-
-
+#expSection #descExperience .expIn {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: lightcoral;
+}
+#descExperience .expIn .expTrackingBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: darkmagenta; */
+}
+#descExperience .expIn .expDetails {
+    width: 50%;
+    background-color: darkorchid;
+    border: 5px solid white;
+    border-radius: 10px;
+}
 
 
 /* PROJECTS SECTION */
