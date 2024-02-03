@@ -392,6 +392,16 @@ html {
     border-bottom: 5px solid white;
     padding: 80px 130px 40px 130px;
 }
+#experience #expSection #introExp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#introExp .para {
+    width: 50%;
+}
 #experience #expSection #descExperience {
     border: 2px solid khaki;
     border-radius: 10px;
@@ -399,12 +409,19 @@ html {
     padding: 20px;
     width: 100%;
 }
+#expSection #descExperience ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #expSection #descExperience .expIn {
-    width: 90%;
+    width: 70%;
     min-height: 10px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10px;
     border-left: 3px solid rgb(133, 76, 230);
     background-color: lightcoral;
     margin-bottom: 25px;
@@ -417,7 +434,7 @@ html {
     /* background-color: darkmagenta; */
 }
 #descExperience .expIn .expDetails {
-    width: 50%;
+    width: 100%;
     background-color: darkorchid;
     border: 0.1px solid rgb(48, 110, 232);
     border-radius: 10px;
@@ -430,8 +447,8 @@ html {
     border: 5px solid firebrick;
 }
 .companyIntro .companyLogo {
-    width: 50px;
-    height: auto
+    width: 55px;
+    height: auto;
 }
 .companyLogo img {
     border-radius: 10px;
@@ -462,7 +479,8 @@ html {
 .expDetails .companyDesc {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
     border: 5px solid darkorange;
 }
 
