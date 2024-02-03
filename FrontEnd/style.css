@@ -423,7 +423,7 @@ html {
     justify-content: flex-start;
     gap: 10px;
     border-left: 3px solid rgb(133, 76, 230);
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     margin-bottom: 25px;
 }
 #descExperience .expIn .expTrackingBar {
@@ -435,8 +435,9 @@ html {
 }
 #descExperience .expIn .expDetails {
     width: 100%;
-    background-color: darkorchid;
+    /* background-color: darkorchid; */
     border: 0.1px solid rgb(48, 110, 232);
+    padding: 10px;
     border-radius: 10px;
 }
 .expDetails .companyIntro {
@@ -444,7 +445,7 @@ html {
     align-items: center;
     justify-content: baseline;
     gap: 20px;
-    border: 5px solid firebrick;
+    /* border: 5px solid firebrick; */
 }
 .companyIntro .companyLogo {
     width: 55px;
@@ -454,14 +455,14 @@ html {
     border-radius: 10px;
 }
 
-.companyIntro .companyIntroDetails {
+/* .companyIntro .companyIntroDetails {
     background-color: darkslateblue;
-}
+} */
 .companyIntroDetails h1 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: whitesmoke;
+    color: #f2f3f499;
 }
 .companyIntroDetails h2 {
     font-family: "Poppins", sans-serif;
@@ -481,9 +482,24 @@ html {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    border: 5px solid darkorange;
+    /* border: 5px solid darkorange; */
+    color: #f2f3f499;
+    margin: 10px;
 }
-
+.companyDesc .companyWorkDesc {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.companyDesc .companyWorkSkills {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.companyDesc .companyWorkCertificate {
+    font-size: 16px;
+}
 
 /* PROJECTS SECTION */
 #bodySection #projects {
