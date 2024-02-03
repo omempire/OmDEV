@@ -496,6 +496,26 @@ html {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.companyWorkSkills .skk1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.companyWorkSkills .workSkillList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
+}
+.workSkillList .skk2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
 }
 .companyDesc .companyWorkCertificate {
     font-size: 16px;
