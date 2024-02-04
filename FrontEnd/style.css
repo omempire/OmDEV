@@ -559,6 +559,10 @@ html {
     padding: 80px 130px;
 }
 #projects #projectSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: lightslategrey;
     border: 2px solid lightseagreen;
 }
@@ -568,29 +572,34 @@ html {
     align-items: center;
     justify-content: center;
     background-color: brown;
+    width: 100%;
 }
 #introProject .para {
     text-align: center;
     width: 70%;
 }
 #projectSection #descProject {
-    background-color: cadetblue;
     display: flex;
-    padding: 50px;
+    padding: 40px 0;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
+    width: 95%;
+    height: auto;
+    background-color: cadetblue;
 }
 #descProject .projectCard {
     background-color: chocolate;
     border: 2px solid white;
-    width: 300px;
+    width: 310px;
     height: 350px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
 }
 .projectCard .cardIntro {
     background-color: crimson;
