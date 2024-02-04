@@ -593,7 +593,7 @@ html {
     background-color: chocolate;
     border: 2px solid white;
     width: 310px;
-    height: 350px;
+    height: 450px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -602,10 +602,24 @@ html {
 
 }
 .projectCard .cardIntro {
-    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 50%;
+    padding: 20px;
     text-align: center;
+    background-color: crimson;
+}
+.cardIntro .projectImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .projectCard .cardDesc {
     background-color: dodgerblue;
