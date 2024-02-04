@@ -168,7 +168,7 @@ html {
     position: sticky;
     background-color: rgb(25, 25, 36);
     top: 0px;
-    /* z-index: 10; */
+    z-index: 10;
     /* background-color: rgb(28, 28, 39); */
     /* background-color: rgb(248, 228, 228); */
 }
@@ -426,7 +426,6 @@ html {
     gap: 10px;
     border-left: 2px solid rgb(133, 76, 230);
     /* background-color: lightcoral; */
-    margin-bottom: 25px;
 }
 #descExperience .expIn .expTrackingBar {
     display: flex;
@@ -439,7 +438,7 @@ html {
     width: 100%;
     /* background-color: darkorchid; */
     border: 0.1px solid rgb(48, 110, 232);
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     border-radius: 10px;
     box-shadow: 0px 10px 34px rgba(23, 92, 230, 0.15);
     /* cursor: default; */
@@ -506,7 +505,7 @@ html {
 .companyDesc .companyWorkSkills {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    margin: 10px 0;
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -533,7 +532,7 @@ html {
 .companyDesc .companyWorkCertificate {
     display: none;
     font-size: 16px;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 .companyDesc .companyWorkCertificate .workCertificateImg {
     width: 55px;
