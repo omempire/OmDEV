@@ -602,9 +602,9 @@ html {
     justify-content: space-between;
     gap: 20px;
     width: 320px;
-    height: 500px;
+    height: 100%;
     border-radius: 10px;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     border: 2px solid white;
     padding: 15px;
 }
@@ -613,13 +613,13 @@ html {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 45%;
     text-align: center;
     /* background-color: crimson; */
 }
 .cardIntro .projectImg {
     width: 100%;
-    height: 100%;
+    height: 200px;
     border-radius: 10px;
     color: whitesmoke;
     background-color: rgb(224, 212, 212);
@@ -636,19 +636,75 @@ html {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    min-width: 100px;
     width: 100%;
-    height: 50%;
+    height: 55%;
     /* padding: 5px; */
     padding-top: 0px;
     text-align: center;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
 }
 .cardDesc .projectDesc {
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
     height: 100%;
     color: black;
-    background-color: gold;
+    border: 2px solid gold;
 }
+.projectTechStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.projectDesc .projectTechStack .techStackLabel {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 10px;
+    color: #854ce6;
+    background-color: #854ce615;
+}
+.projectName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    width: 100%;
+}
+.projectDesc .projectName h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #b1b2b3;
+    padding: 10px 0;
+}
+.projectDesc .projectDetails {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    color: #b1b2b3;
+    /* height: 140px; */
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+}
+/* .projectDesc .projectDetails {
+    height: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.projectCard:hover .projectDetails {
+    overflow: visible;
+} */
 
 /* ------------------------------------ */
 
