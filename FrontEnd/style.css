@@ -602,14 +602,14 @@ html {
     justify-content: space-between;
     gap: 20px;
     width: 320px;
-    height: 100%;
+    height: 450px;
     border-radius: 10px;
     /* background-color: chocolate; */
     background-color: #171721;
     cursor: pointer;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.4);
     border: 2px solid white;
-    padding: 15px;
+    padding: 20px;
     transition: all .3s ease-in-out 0s;
 }
 .projectCard:hover {
@@ -628,8 +628,7 @@ html {
 }
 .cardIntro .projectImg {
     width: 100%;
-    height: 200px;
-    border-radius: 30px;
+    height: 100%;
     color: whitesmoke;
     /* background-color: rgb(224, 212, 212); */
     display: flex;
@@ -639,7 +638,7 @@ html {
 .projectImg img {
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .projectCard .cardDesc {
     display: flex;
@@ -668,24 +667,25 @@ html {
     flex-wrap: wrap;
     gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
 }
 .projectDesc .projectTechStack .techStackLabel {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 500;
-    padding: 10px 20px;
+    padding: 2px 8px;
     margin: 0;
     border-radius: 10px;
     color: #854ce6;
     background-color: #854ce615;
 }
 .projectName {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     /* background-color: red; */
     width: 100%;
+    padding: 2px;
 }
 .projectDesc .projectName h1 {
     font-family: "Poppins", sans-serif;
@@ -693,13 +693,16 @@ html {
     font-weight: 600;
     color: #b1b2b3;
     padding: 10px 0;
+    text-align: left;
 }
 .projectDesc .projectDetails {
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     text-align: left;
-    color: #b1b2b3;
+    color: #b1b2b399;
     /* height: 140px; */
-    height: 80px;
+    height: 50%;
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
