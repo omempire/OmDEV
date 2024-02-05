@@ -608,14 +608,14 @@ html {
     background-color: #171721;
     cursor: pointer;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.4);
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 20px;
     transition: all .3s ease-in-out 0s;
 }
 .projectCard:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.6);
-    filter: brightness(1.1);
+    box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.6) !important;
+    filter: brightness(1.1) !important;
 }
 .projectCard .cardIntro {
     display: flex;
@@ -737,8 +737,11 @@ html {
     font-size: 20px;
     color: rgb(248, 228, 228);
     height: auto;
-    background-color: rgb(28, 28, 39);
+    /* background-color: rgb(28, 28, 39); */
     padding: 80px 130px;
+    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+    width: 100%;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
 }
 
 #footerSection p {
