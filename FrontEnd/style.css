@@ -729,6 +729,7 @@ html {
 
 #footerSection {
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 100px;
     align-items: center;
@@ -738,7 +739,7 @@ html {
     color: rgb(248, 228, 228);
     height: auto;
     /* background-color: rgb(28, 28, 39); */
-    background-color: #191924;
+    /* background-color: #191924; */
     padding: 80px 130px;
     /* background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%); */
 }
