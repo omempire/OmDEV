@@ -299,9 +299,20 @@ html {
     border-radius: 50%;
 }
 
+#wSVG1 {
+    background-color: rgba(201, 32, 184, 0);
+    /* background-color: rgb(25, 25, 36); */
+    padding: 0;
+    margin: 0;
+}
+#wSVG1 path {
+    fill: rgb(25, 25, 36);
+}
+
 
 
 /* SKILL SECTION */
+
 /* #bodySection #bgGradient {
     background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%,rgba(201, 32, 184, 0) 50%),
     linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
@@ -312,9 +323,12 @@ html {
     align-items: center;
     justify-content: center;
     height: auto;
-    background-color: rgb(25, 25, 36);
+    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%,rgba(201, 32, 184, 0) 50%),
+    linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+    /* background-color: rgb(25, 25, 36); */
     /* border-bottom: 5px solid white; */
     padding: 80px 130px;
+    padding-top: 10px;
 }
 
 #bodySection #skills #skillSection {
