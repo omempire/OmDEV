@@ -159,14 +159,21 @@ html {
     fill: rgb(25, 25, 36);
 }
 
-#linBg {
-    background-color: red;
+#linGraBg {
+    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%,rgba(201, 32, 184, 0) 50%),
+    linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
 }
 
 #wSVG2 {
     background-color: rgb(25, 25, 36);
     padding: 0;
     margin: 0;
+}
+
+#wSVG2 path {
+    fill: rgba(204, 0, 187, 0.15);
+    /* background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%,rgba(201, 32, 184, 0) 50%),
+    linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%); */
 }
 
 /* ------------------------------------ */
@@ -334,12 +341,10 @@ html {
     align-items: center;
     justify-content: center;
     height: auto;
-    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%,rgba(201, 32, 184, 0) 50%),
-    linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
     /* background-color: rgb(25, 25, 36); */
     /* border-bottom: 5px solid white; */
     padding: 80px 130px;
-    padding-top: 10px;
+    padding-top: 0;
 }
 
 #bodySection #skills #skillSection {
@@ -416,9 +421,8 @@ html {
 
 /* EXPERIENCE SECTION */
 #bodySection #experience {
-    position: relative;
     height: auto;
-    background-color: rgb(25, 25, 36);
+    /* background-color: rgb(25, 25, 36); */
     /* background-color: rgb(170, 124, 39); */
     /* border-bottom: 5px solid white; */
     padding: 80px 130px;
