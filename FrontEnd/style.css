@@ -1003,7 +1003,29 @@ html {
     #footerSection #footerDiv h4 {
         font-size: 16px;
     }
-    #f
+    #footerSection #footer #contactForm {
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    #footerSection #footerDiv #contactFormDiv #reachMe h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    #footerDiv #contactForm input, textarea {
+        max-width: 400px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #footerSection #contactForm input[type="submit"] {
+        font-size: 16px;
+    }
+    #footerSection #footFooter #socials a {
+        font-size: 16px;
+    }
+    #footerSection #footFooter h3 {
+        font-size: 12px;
+    }
 
 
 }
