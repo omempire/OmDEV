@@ -982,6 +982,11 @@ html {
         justify-content: center;
     }
 
+    /* #footerSection #contactFormDiv input[type="submit"] {
+        font-size: 18px;
+        font-weight: 600;
+    } */
+
 }
 
 @media (max-width: 650px) {
