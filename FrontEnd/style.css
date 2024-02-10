@@ -935,13 +935,51 @@ html {
 
 }
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
 
     #navbar {
         display: none;
     }
     #nav-toggler {
         display: block;
+    }
+
+    #headSection {
+        padding: 20px 25px;
+    }
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #bodySection #heroSection h1 {
+        font-size: 45px;
+    }
+    #bodySection #heroSection h2 {
+        font-size: 30px;
+    }
+    #bodySection #heroSection .para {
+        font-size: 18px;
+    }
+    #heroSection #desc #resumeButton {
+        padding: 14px 80px;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+
+    #bodySection #skills {
+        margin-top: -50px;
+    }
+
+    #bodySection #experience .para {
+        width: 100%;
+    }
+
+    #bodySection #projects .para {
+        width: 100%;
+    }
+    #projects #descProject {
+        justify-content: center;
     }
 
 }
