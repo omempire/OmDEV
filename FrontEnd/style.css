@@ -947,13 +947,14 @@ html {
 
 @media (max-width: 650px) {
 
-    #navbar {
-        
+    #headSection {
+        padding: 20px 25px;
     }
-
     .container {
         padding: 30px;
     }
+
+
     #bodySection #heroSection #desc h1 {
         font-size: 44px;
         letter-spacing: 1px;
@@ -963,12 +964,31 @@ html {
         font-size: 34px;
         letter-spacing: 1px;
         line-height: normal;
+        margin: 5px 0;
     }
     #bodySection #heroSection #desc .para {
         font-size: 16px;
         letter-spacing: 1px;
         line-height: normal;
     }
+    #heroSection #desc #resumeButton {
+        padding: 8px 37px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+
+    #bodySection #skills {
+        padding-top: 100px;
+    }
+    
+
+    #bodySection #experience #introExp .para{
+        width: 100%;
+    }
+    #experience #descExperience .expIn {
+        width: 100%;
+    }
+
 
 }
 
