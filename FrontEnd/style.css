@@ -68,9 +68,13 @@ html {
 
 /* #### UTILITY CLASSES #### */
 
-.container {
+/* .container {
   padding: 4rem 2rem;
   color: var(--text);
+} */
+
+.container {
+    padding: 80px 130px;
 }
 
 .highlighted {
@@ -264,6 +268,7 @@ html {
     padding: 0 111px;
 } */
 
+
 #bodySection #heroSection {
     display: flex;
     align-items: center;
@@ -272,7 +277,7 @@ html {
     background-color: rgb(28, 28, 39);
     /* background-color: rgb(28, 28, 39); */
     /* border-bottom: 5px solid white; */
-    padding: 0 130px;
+    /* padding: 0 130px; */
     padding-bottom: 135px;
 }
 #bodySection #heroSection #desc {
@@ -347,8 +352,9 @@ html {
     height: auto;
     /* background-color: rgb(25, 25, 36); */
     /* border-bottom: 5px solid white; */
-    padding: 80px 130px;
+    /* padding: 80px 130px; */
     padding-top: 0;
+    margin-top: -100px;
 }
 
 #bodySection #skills #skillSection {
@@ -429,7 +435,7 @@ html {
     /* background-color: rgb(25, 25, 36); */
     /* background-color: rgb(170, 124, 39); */
     /* border-bottom: 5px solid white; */
-    padding: 80px 130px;
+    /* padding: 80px 130px; */
     letter-spacing: 0.00938em;
 }
 #experience #expSection #introExp {
@@ -595,7 +601,7 @@ html {
     height: auto;
     background-color: rgb(25, 25, 36);
     /* border-bottom: 5px solid white; */
-    padding: 80px 130px;
+    /* padding: 80px 130px; */
 }
 #projects #projectSection {
     display: flex;
@@ -773,7 +779,7 @@ html {
     height: auto;
     /* background-color: rgb(28, 28, 39); */
     background-color: #191924;
-    padding: 80px 130px;
+    /* padding: 80px 130px; */
     /* background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%); */
 }
 
@@ -908,6 +914,25 @@ html {
 /* ------------------------------------ */
 
 /* #### RESPONSIVE #### */
+
+
+@media (max-width: 1200px) {
+
+    .container {
+        padding: 80px 50px;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    #bodySection #heroSection #heroImage{
+        display: none;
+    }
+    #bodySection #heroSection #desc {
+        width: 100%;
+    }
+
+}
 
 @media (max-width: 770px) {
 
