@@ -806,6 +806,7 @@ html {
 #footerDiv h4 {
     font-size: 20px;
     font-weight: 400;
+    color: #f2f3f495;
 }
 
 #footerDiv #contactForm {
@@ -980,14 +981,29 @@ html {
     #bodySection #skills {
         padding-top: 100px;
     }
-    
 
+    #bodySection #experience {
+        padding-bottom: 100px;
+    }
     #bodySection #experience #introExp .para{
         width: 100%;
     }
     #experience #descExperience .expIn {
         width: 100%;
     }
+
+    #bodySection #projects .para{
+        width: 100%;
+    }
+    #bodySection #projects #descProject {
+        justify-content: center;
+    }
+
+
+    #footerSection #footerDiv h4 {
+        font-size: 16px;
+    }
+    #f
 
 
 }
