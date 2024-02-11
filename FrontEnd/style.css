@@ -1078,6 +1078,10 @@ html {
 @media (max-width: 410px) {
 
 
+    #headSection #logo a {
+        font-size: 19px;
+    }
+
     #footerSection #footerDiv h2 {
         font-size: 30px;
     }
