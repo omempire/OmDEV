@@ -999,6 +999,7 @@ html {
     }
 
 
+
     #bodySection #heroSection #desc h1 {
         font-size: 44px;
         letter-spacing: 1px;
@@ -1070,6 +1071,33 @@ html {
         font-size: 12px;
     }
 
+
+}
+
+
+@media (max-width: 410px) {
+
+
+    #footerSection #footerDiv h2 {
+        font-size: 30px;
+    }
+    #footerSection #footerDiv h4 {
+        text-align: center;
+    }
+    #footerSection #contactForm input[type="submit"] {
+        padding: 9px;
+        font-size: 14px;
+    }
+
+    #footerSection #footFooter h1 {
+        font-size: 18px;
+    }
+    #footFooter #socials a {
+        font-size: 16px;
+    }
+    #footerSection #footFooter h3 {
+        font-size: 10px;
+    }
 
 }
 
