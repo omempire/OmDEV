@@ -1080,7 +1080,9 @@ html {
 
 @media (max-width: 410px) {
 
-
+    #headSection {
+        padding: 10px 20px;
+    }
     #headSection #logo svg {
         width: 2rem;
         height: 2rem;
@@ -1089,9 +1091,11 @@ html {
         font-size: 19px;
     }
 
+
     #bodySectin #heroSection {
-        padding: 0;
+        padding: 10px 20px;
         margin: 0;
+        padding-bottom: 0;
     }
     #bodySection #heroSection #desc h1 {
         font-size: 30px;
@@ -1108,13 +1112,43 @@ html {
         font-size: 14px;
     }
 
+
     #bodySection #skills {
-        padding: 0;
+        padding: 10px 20px;
         margin: 0;
     }
     #bodySection #skills #introSkill h1 {
         font-size: 30px;
     }
+    #bodySection #skills #introSkill .para {
+        font-size: 16px;
+    }
+
+
+    #bodySection #experience {
+        padding: 10px 20px;
+        margin: 0;
+    }
+    #bodySection #experience #introExp h1 {
+        font-size: 30px;
+    }
+    #bodySection #experience #introExp .para {
+        font-size: 16px;
+    }
+    #bodySection #experience #descExperience {
+        width: 100%;
+    }
+    #bodySection #experience #descExperience .expIn {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    /* #descExperience .expIn .expTrackingBar {
+        width: 10%;
+    } */
+    /* #descExperience .expIn .expDetails {
+        width: 90%;
+    } */
 
     #footerSection #footerDiv h2 {
         font-size: 30px;
