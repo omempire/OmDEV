@@ -1132,7 +1132,7 @@ html {
 
 
     #bodySection #experience {
-        padding: 10px 20px;
+        padding: 0;
         margin: 0;
         padding-bottom: 100px;
     }
@@ -1147,10 +1147,18 @@ html {
     }
     #bodySection #experience #expSection #descExperience .expIn {
         width: 100%;
-        align-items: flex-start;
     }
     #bodySection #experience #expSection #descExperience .expIn .expDetails {
         width: 100%;
+    }
+    /* #descExperience .expIn .companyIntro .companyIntroDetails h1 {
+        font-size: 20px;
+    } */
+    #descExperience .expIn .expDetails .companyDesc .companyWorkDesc {
+        font-size: 12px;
+    }
+    #descExperience .expIn .expDetails .companyDesc .workSkillList .skk2 {
+        font-size: 12px;
     }
 
 
