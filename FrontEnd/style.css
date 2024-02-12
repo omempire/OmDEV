@@ -1128,6 +1128,7 @@ html {
     #bodySection #experience {
         padding: 10px 20px;
         margin: 0;
+        padding-bottom: 100px;
     }
     #bodySection #experience #introExp h1 {
         font-size: 30px;
@@ -1135,20 +1136,16 @@ html {
     #bodySection #experience #introExp .para {
         font-size: 16px;
     }
-    #bodySection #experience #descExperience {
+    #bodySection #experience #expSection #descExperience {
         width: 100%;
     }
-    #bodySection #experience #descExperience .expIn {
+    #bodySection #experience #expSection #descExperience .expIn {
         width: 100%;
-        padding: 0;
-        margin: 0;
+        align-items: flex-start;
     }
-    /* #descExperience .expIn .expTrackingBar {
-        width: 10%;
-    } */
-    /* #descExperience .expIn .expDetails {
-        width: 90%;
-    } */
+    #bodySection #experience #expSection #descExperience .expIn .expDetails {
+        width: 100%;
+    }
 
     #footerSection #footerDiv h2 {
         font-size: 30px;
