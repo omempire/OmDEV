@@ -1,22 +1,22 @@
 
+// HAMBURGER SCRIPT
+
 let hamBtn = document.getElementById("nav-toggler");
 
 hamBtn.addEventListener("click", function() {
 
-    document.getElementById('logoName').style.display = "none";
-    
+    let logoNm = document.getElementById('logoName');
     let menuDiv = document.getElementById('navbar');
-    menuDiv.style.display = "block";
-    
 
-    let menuList = menuDiv.getElementsByTagName('a');
-    let size = menuList.length;
-    for (let i = 0; i < size; i++) {
-        menuList[i].style.fontSize = "12px";
+    if (logoNm.style.display != 'none') {
+    
+        logoNm.style.display = "none";
+        menuDiv.style.display = "block";
+    }
+    else if (logoNm.style.display == 'none') {
+
+        logoNm.style.display = "block";
+        menuDiv.style.display = "none";
     }
 
 });
-
-if (hamBtn.style.display == 'none') {
-    console.log("Yes");
-}

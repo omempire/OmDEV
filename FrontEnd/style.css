@@ -1103,6 +1103,9 @@ html {
     #headSection #navbar #nav-links {
         gap: 20px;
     }
+    #headSection #navbar #nav-links a {
+        font-size: 10px;
+    }
     #headSection #logo svg {
         width: 2rem;
         height: 2rem;
