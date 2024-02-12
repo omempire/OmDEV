@@ -1100,6 +1100,9 @@ html {
         padding: 0;
         margin: 0;
     } */
+    #headSection #navbar #nav-links {
+        gap: 20px;
+    }
     #headSection #logo svg {
         width: 2rem;
         height: 2rem;
