@@ -302,6 +302,9 @@ html {
     /* margin: 10px 0; */
     line-height: 70px;
 }
+#desc div span {
+    font-size: 34px;
+}
 #desc .para {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
@@ -1078,8 +1081,39 @@ html {
 @media (max-width: 410px) {
 
 
+    #headSection #logo svg {
+        width: 2rem;
+        height: 2rem;
+    }
     #headSection #logo a {
         font-size: 19px;
+    }
+
+    #bodySectin #heroSection {
+        padding: 0;
+        margin: 0;
+    }
+    #bodySection #heroSection #desc h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    #bodySection #heroSection #desc h2{
+        font-size: 20px;
+        line-height: normal;
+    }
+    #bodySection #heroSection #desc span {
+        font-size: 20px;
+    }
+    #bodySection #heroSection #desc .para {
+        font-size: 14px;
+    }
+
+    #bodySection #skills {
+        padding: 0;
+        margin: 0;
+    }
+    #bodySection #skills #introSkill h1 {
+        font-size: 30px;
     }
 
     #footerSection #footerDiv h2 {
