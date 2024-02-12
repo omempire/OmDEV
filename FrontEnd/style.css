@@ -1147,6 +1147,18 @@ html {
         width: 100%;
     }
 
+
+    #bodySection #projects {
+        padding: 10px 20px;
+        margin: 0;
+    }
+    #bodySection #projects #introProject h1 {
+        font-size: 30px;
+    }
+    #bodySection #projects #introProject .para {
+        font-size: 16px;
+    }
+
     #footerSection #footerDiv h2 {
         font-size: 30px;
     }
