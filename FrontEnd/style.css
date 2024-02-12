@@ -1078,7 +1078,8 @@ html {
 }
 
 
-@media (max-width: 410px) {
+/* @media (max-width: 410px) { */
+   @media (max-width: 505px) {
 
     #headSection {
         padding: 10px 20px;
