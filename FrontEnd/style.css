@@ -213,6 +213,9 @@ html {
     align-items: center;
     justify-content: center;
 }
+#headSection #logo #logoName {
+    display: block;
+}
 #headSection #logo svg {
     height: 2.7rem;
     width: 2.7rem;
@@ -225,6 +228,10 @@ html {
     font-weight: bold;
     color: whitesmoke;
     /* color: var(--bg-dark); */
+}
+
+#headSection #navbar {
+    display: block;
 }
 
 #headSection #navbar a {
@@ -939,11 +946,6 @@ html {
 
 }
 
-@media (min-width: 931px) {
-    #navbar {
-        display: block;
-    }
-}
 
 /* @media (max-width: 800px) { */
    @media (max-width: 930px) {
