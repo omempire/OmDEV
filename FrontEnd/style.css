@@ -947,7 +947,12 @@ html {
 
     .container {
         padding: 80px 50px;
-    } 
+    }
+
+    #headSection {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -957,6 +962,10 @@ html {
     }
     #bodySection #heroSection #desc {
         width: 100%;
+    }
+
+    #headSection #navbar .nav-links a {
+        font-size: 15px;
     }
 }
 
@@ -972,9 +981,11 @@ html {
         padding-right: 30px;
     }
 
-
+    #headSection #navbar .nav-links {
+        gap: 40px;
+    }
     #headSection #navbar .nav-links a {
-        font-size: 12px;
+        font-size: 14px;
     }
     #headSection #logo svg {
         width: 2rem;
