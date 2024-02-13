@@ -20,3 +20,11 @@ hamBtn.addEventListener("click", function() {
     }
 
 });
+
+if (hamBtn.style.display == 'none') {
+    
+    if (document.getElementById('logoName').style.display == 'none') {
+        document.getElementById('logoName').style.display = "block";
+    }
+
+}

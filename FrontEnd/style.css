@@ -947,15 +947,10 @@ html {
 }
 
 
-/* @media (max-width: 800px) { */
-   @media (max-width: 930px) {
 
-    #navbar {
-        display: none;
-    }
-    #nav-toggler {
-        display: block;
-    }
+
+/* @media (max-width: 800px) { */
+@media (max-width: 930px) {
 
     #headSection {
         padding: 20px 25px;
@@ -963,6 +958,13 @@ html {
     .container {
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    #headSection #navbar {
+        display: none;
+    }
+    #headSection #nav-toggler {
+        display: block;
     }
 
     #bodySection #heroSection h1 {
