@@ -947,7 +947,19 @@ html {
 }
 
 
+/* @media (min-width: 931px) {
 
+    #headSection #logoName {
+        display: block;
+    }
+    #headSection #navbar {
+        display: block;
+    }
+    #headSection #nav-toggler {
+        display: none;
+    }
+
+} */
 
 /* @media (max-width: 800px) { */
 @media (max-width: 930px) {
