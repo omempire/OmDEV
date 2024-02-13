@@ -81,6 +81,10 @@ html {
   color: var(--accent);
 }
 
+.active {
+    display: block;
+}
+
 .hidden {
   display: none;
 }
@@ -242,7 +246,7 @@ html {
     /* color: var(--bg-dark); */
 }
 
-#headSection #navbar #nav-links {
+#headSection #navbar .nav-links {
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -932,7 +936,7 @@ html {
 
     .container {
         padding: 80px 50px;
-    }
+    } 
 }
 
 @media (max-width: 1050px) {
@@ -943,23 +947,8 @@ html {
     #bodySection #heroSection #desc {
         width: 100%;
     }
-
 }
 
-
-/* @media (min-width: 931px) {
-
-    #headSection #logoName {
-        display: block;
-    }
-    #headSection #navbar {
-        display: block;
-    }
-    #headSection #nav-toggler {
-        display: none;
-    }
-
-} */
 
 /* @media (max-width: 800px) { */
 @media (max-width: 930px) {
@@ -972,12 +961,13 @@ html {
         padding-right: 30px;
     }
 
-    #headSection #navbar {
+    #headSection #navbar #navbarLinks {
         display: none;
     }
     #headSection #nav-toggler {
         display: block;
     }
+
 
     #bodySection #heroSection h1 {
         font-size: 45px;
@@ -1108,25 +1098,11 @@ html {
     #headSection {
         padding: 10px 20px;
     }
-    /* #headSection #navbar {
-        display: block;
-        width: 100%;
-        height: 100%;
-        padding: 0;
-    }
-    #headSection #navbar #nav-links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        background-color: brown;
-        padding: 0;
-        margin: 0;
-    } */
-    #headSection #navbar #nav-links {
+
+    #headSection #navbar .nav-links {
         gap: 20px;
     }
-    #headSection #navbar #nav-links a {
+    #headSection #navbar .nav-links a {
         font-size: 12px;
     }
     #headSection #logo svg {
@@ -1241,7 +1217,6 @@ html {
     }
 
 }
-
 
 
 /* ------------------------------------ */

@@ -5,29 +5,23 @@ let hamBtn = document.getElementById("nav-toggler");
 let winWidth = window.innerWidth;
 let winHeight = window.innerHeight;
 
-hamBtn.addEventListener("click", function() {
+hamBtn.addEventListener('click', function() {
 
-    let logoNm = document.getElementById('logoName');
-    let menuDiv = document.getElementById('navbar');
+    let logoNm = document.getElementById("logoName");
+    let menuDiv = document.getElementById("navbarLinks2");
 
-    if (logoNm.style.display != 'none' && winWidth <= 930) {
-    
-        logoNm.style.display = "none";
-        menuDiv.style.display = "block";
+    if (logoNm.classList.contains("active")) {
+
+        logoNm.classList.remove("active");
+        logoNm.classList.add("hidden");
+
+        menuDiv.classList.remove("hidden");
+        menuDiv.classList.add("active");
     }
     else {
-        logoNm.style.display = "block";
-        menuDiv.style.display = "none";
-    }
-    
-    if (logoNm.style.display == 'none' && winWidth <= 930) {
-
-        logoNm.style.display = "block";
-        menuDiv.style.display = "none";
-    }
-    else {
-        logoNm.style.display = "none";
-        menuDiv.style.display = "block";
+        
+        logoNm.classList.add("active");
+        menuDiv.classList.add("hidden");
     }
 
 });
