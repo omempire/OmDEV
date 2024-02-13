@@ -939,7 +939,14 @@ html {
 
 }
 
-@media (max-width: 800px) {
+@media (min-width: 931px) {
+    #navbar {
+        display: block;
+    }
+}
+
+/* @media (max-width: 800px) { */
+   @media (max-width: 930px) {
 
     #navbar {
         display: none;
