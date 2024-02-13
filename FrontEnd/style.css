@@ -217,9 +217,9 @@ html {
     align-items: center;
     justify-content: center;
 }
-#headSection #logo #logoName {
+/* #headSection #logo #logoName {
     display: block;
-}
+} */
 #headSection #logo svg {
     height: 2.7rem;
     width: 2.7rem;
@@ -251,6 +251,7 @@ html {
     justify-content: space-between;
     gap: 50px;
 }
+
 
 #nav-toggler {
     display: none;
@@ -932,6 +933,19 @@ html {
 /* #### RESPONSIVE #### */
 
 
+@media only screen and (min-width: 930px) {
+
+    #headSection #logoName {
+        display: block;
+    }
+    #headSection #navbar #navbarLinks2 {
+        display: none;
+    }
+    #headSection #navbar #navbarLinks {
+        display: block;
+    }
+}
+
 @media (max-width: 1200px) {
 
     .container {
@@ -951,7 +965,7 @@ html {
 
 
 /* @media (max-width: 800px) { */
-@media (max-width: 930px) {
+@media only screen and (max-width: 930px) {
 
     #headSection {
         padding: 20px 25px;

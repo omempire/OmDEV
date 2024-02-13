@@ -12,14 +12,14 @@ hamBtn.addEventListener('click', function() {
 
     if (logoNm.classList.contains("active")) {
 
-        logoNm.classList.remove("active");
         logoNm.classList.add("hidden");
+        logoNm.classList.remove("active");
 
-        menuDiv.classList.remove("hidden");
         menuDiv.classList.add("active");
+        menuDiv.classList.remove("hidden");
     }
     else {
-        
+
         logoNm.classList.add("active");
         menuDiv.classList.add("hidden");
     }
