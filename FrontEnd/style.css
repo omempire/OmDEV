@@ -933,17 +933,14 @@ html {
 /* #### RESPONSIVE #### */
 
 
-@media only screen and (min-width: 930px) {
+@media only screen and (min-width: 931px) {
 
     #headSection #logoName {
         display: block;
     }
-    #headSection #navbar #navbarLinks2 {
+    /* #headSection #navbar #navbarLinks2 {
         display: none;
-    }
-    #headSection #navbar #navbarLinks {
-        display: block;
-    }
+    } */
 }
 
 @media (max-width: 1200px) {
@@ -975,11 +972,31 @@ html {
         padding-right: 30px;
     }
 
-    #headSection #navbar #navbarLinks {
-        display: none;
+
+    #headSection #navbar .nav-links a {
+        font-size: 12px;
     }
-    #headSection #nav-toggler {
+    #headSection #logo svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    #headSection #logo a {
+        font-size: 19px;
+    }
+
+    /* #headSection #logo #logoName {
         display: block;
+    }
+    #headSection #logo #logoName a {
+        font-size: 16px;
+    } */
+
+    /* #headSection #navbar #navbarLinks2 {
+        display: none;
+    } */
+
+    #headSection #nav-toggler {
+        display: none;
     }
 
 
@@ -1020,11 +1037,38 @@ html {
 
 }
 
+/* @media only screen and (max-width: 775px) {
+    
+    #headSection #navbar #navbarLinks a {
+        font-size: 14px;
+    }
+    #headSection #navbar #navbarLinks {
+        gap: 30px;
+    }
+} */
+
 @media (max-width: 650px) {
 
     #headSection {
-        padding: 20px 25px;
+        /* padding: 20px 25px; */
+        padding: 10px 20px;
     }
+    #headSection #navbar .nav-links {
+        gap: 20px;
+    }
+    #headSection #navbar .nav-links a {
+        font-size: 12px;
+    }
+    #headSection #logo svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    #headSection #logo a {
+        font-size: 19px;
+    }
+
+
+
     .container {
         padding: 30px;
     }
@@ -1032,23 +1076,23 @@ html {
 
 
     #bodySection #heroSection #desc h1 {
-        font-size: 44px;
+        font-size: 34px;
         letter-spacing: 1px;
         line-height: normal;
     }
     #bodySection #heroSection #desc h2 {
-        font-size: 34px;
+        font-size: 24px;
         letter-spacing: 1px;
         line-height: normal;
         margin: 5px 0;
     }
     #bodySection #heroSection #desc .para {
-        font-size: 16px;
+        font-size: 12px;
         letter-spacing: 1px;
         line-height: normal;
     }
     #heroSection #desc #resumeButton {
-        padding: 8px 37px;
+        padding: 6px 27px;
         font-size: 16px;
         border-radius: 15px;
     }
