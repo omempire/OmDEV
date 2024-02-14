@@ -1060,11 +1060,11 @@ html {
 
 @media (max-width: 650px) {
 
-    #headSection {
+    /* #headSection { */
         /* padding: 20px 25px; */
-        padding: 10px 20px;
-    }
-    #headSection #navbar .nav-links {
+        /* padding: 10px 20px; */
+    /* } */
+    /* #headSection #navbar .nav-links {
         gap: 20px;
     }
     #headSection #navbar .nav-links a {
@@ -1077,9 +1077,6 @@ html {
     #headSection #logo a {
         font-size: 19px;
     }
-
-
-
     .container {
         padding: 30px;
     }
@@ -1155,14 +1152,12 @@ html {
     }
     #footerSection #footFooter h3 {
         font-size: 12px;
-    }
+    } */
 
 
-}
+    /* -------------- */
 
-
-/* @media (max-width: 410px) { */
-   @media (max-width: 505px) {
+    /* @media (max-width: 505px) { */
 
     #headSection {
         padding: 10px 20px;
@@ -1284,8 +1279,135 @@ html {
     #footerSection #footFooter h3 {
         font-size: 10px;
     }
+    
+    /* } */
+
 
 }
+
+
+/* @media (max-width: 410px) { */
+/* @media (max-width: 505px) {
+
+    #headSection {
+        padding: 10px 20px;
+    }
+
+    #headSection #navbar .nav-links {
+        gap: 20px;
+    }
+    #headSection #navbar .nav-links a {
+        font-size: 12px;
+    }
+    #headSection #logo svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    #headSection #logo a {
+        font-size: 19px;
+    }
+
+
+    #bodySectin #heroSection {
+        padding: 10px 20px;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    #bodySection #heroSection #desc h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    #bodySection #heroSection #desc h2{
+        font-size: 20px;
+        line-height: normal;
+    }
+    #bodySection #heroSection #desc span {
+        font-size: 20px;
+    }
+    #bodySection #heroSection #desc .para {
+        font-size: 14px;
+    }
+
+
+    #bodySection #skills {
+        padding: 10px 20px;
+        margin: 0;
+    }
+    #bodySection #skills #introSkill h1 {
+        font-size: 30px;
+    }
+    #bodySection #skills #introSkill .para {
+        font-size: 16px;
+    }
+    #bodySection #skills #descSkill h1 {
+        font-size: 20px;
+    }
+    #bodySection #skills #descSkill .skill {
+        font-size: 14px;
+    }
+
+
+    #bodySection #experience {
+        padding: 0;
+        margin: 0;
+        padding-bottom: 100px;
+    }
+    #bodySection #experience #introExp h1 {
+        font-size: 30px;
+    }
+    #bodySection #experience #introExp .para {
+        font-size: 16px;
+    }
+    #bodySection #experience #expSection #descExperience {
+        width: 100%;
+    }
+    #bodySection #experience #expSection #descExperience .expIn {
+        width: 100%;
+    }
+    #bodySection #experience #expSection #descExperience .expIn .expDetails {
+        width: 100%;
+    }
+    #descExperience .expIn .expDetails .companyDesc .companyWorkDesc {
+        font-size: 12px;
+    }
+    #descExperience .expIn .expDetails .companyDesc .workSkillList .skk2 {
+        font-size: 12px;
+    }
+
+
+    #bodySection #projects {
+        padding: 10px 20px;
+        margin: 0;
+    }
+    #bodySection #projects #introProject h1 {
+        font-size: 30px;
+    }
+    #bodySection #projects #introProject .para {
+        font-size: 16px;
+    }
+
+    #footerSection #footerDiv h2 {
+        font-size: 30px;
+    }
+    #footerSection #footerDiv h4 {
+        text-align: center;
+    }
+    #footerSection #contactForm input[type="submit"] {
+        padding: 9px;
+        font-size: 14px;
+    }
+
+    #footerSection #footFooter h1 {
+        font-size: 18px;
+    }
+    #footFooter #socials a {
+        font-size: 16px;
+    }
+    #footerSection #footFooter h3 {
+        font-size: 10px;
+    }
+
+} */
 
 
 /* ------------------------------------ */
